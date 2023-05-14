@@ -1,0 +1,24 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: latihan-dicoding-386618/index.html
+  upload: latihan-dicoding-386618/index.html
+
+- url: /
+  static_files: latihan-dicoding-386618/css/aos.css
+  upload: latihan-dicoding-386618/css/aos.css
+
+- url: /
+  static_files: latihan-dicoding-386618/css/bootstrap.min.css
+  upload: latihan-dicoding-386618/css/bootstrap.min.css
+
+- url:/
+  static_files: latihan-dicoding-386618/css/main.css
+  upload: latihan-dicoding-386618/css/main.css
+
+- url: /(.*)
+  static_files: latihan-dicoding-386618/\1
+  upload: latihan-dicoding-386618/(.*)
