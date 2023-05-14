@@ -1,0 +1,24 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /
+  static_files: www/css/aos.css
+  upload: www/css/aos.css
+
+- url: /
+  static_files: www/css/bootstrap.min.css
+  upload: www/css/bootstrap.min.css
+
+- url:/
+  static_files: www/css/main.css
+  upload: www/css/main.css
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
