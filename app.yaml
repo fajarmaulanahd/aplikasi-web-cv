@@ -15,7 +15,7 @@ handlers:
   static_files: www/css/bootstrap.min.css
   upload: www/css/bootstrap.min.css
 
-- url:/
+- url: /
   static_files: www/css/main.css
   upload: www/css/main.css
 
